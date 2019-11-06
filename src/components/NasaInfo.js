@@ -22,9 +22,10 @@ export default function NasaInfo() {
     return (
 
         <div>
-            {photo.map((photo, index) => {
-                return <NasaCard key={index} url={photo} title={photo.title} explanation={photo.explanation} />
-            })}
+            return <NasaCard imgUrl={photo.url} title={photo.title} date={photo.date} explanation={photo.explanation} />
         </div>
     );
 }
+
+
+// return <NasaCard key={index} imgUrl={photo} title={photo.title} explanation={photo.explanation} />
