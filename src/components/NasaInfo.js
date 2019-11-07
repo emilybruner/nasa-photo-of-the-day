@@ -22,7 +22,7 @@ export default function NasaInfo() {
     return (
 
         <div>
-            return <NasaCard imgUrl={photo.url} title={photo.title} date={photo.date} explanation={photo.explanation} />
+            <NasaCard imgUrl={photo.url} title={photo.title} date={photo.date} explanation={photo.explanation} />
         </div>
     );
 }
