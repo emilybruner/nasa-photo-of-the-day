@@ -31,3 +31,12 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  overflow-x: hidden;
+  background-color: #56a9ad;
+  background-image: url("https://unsplash.com/photos/ln5drpv_ImI");
+  background-size: stretch;
+  padding: 0;
+  margin: 0;
+}
